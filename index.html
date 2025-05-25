@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Catch the Falling Stars</title>
+</head>
+<body>
+    <h1>🌟 Catch the Falling Stars 🌟</h1>
+    
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div id="gameOverScreen">
+            <h2>Game Over!</h2>
+            <p id="finalScore">Final Score: 0</p>
+            <p id="newHighScore" style="display: none; color: #ffd700;">🎉 New High Score! 🎉</p>
+            <button id="restartBtn">Play Again</button>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <p>Use ← → arrow keys to move your basket and catch the falling stars!</p>
+        <p>Game lasts 60 seconds • Stars fall faster every 15 seconds</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
